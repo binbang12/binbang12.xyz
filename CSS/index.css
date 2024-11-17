@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    height: 100vh;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+}
+  
+/* Center CSS */
+#center {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(3rem, 6vw, 10rem);
+    color: #00cc33;
+    padding: 0rem clamp(1rem, 2vw, 3rem);
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+    place-self: center;
+    z-index: 1;
+}
+  
+#center:hover {
+    background-color: #00cc33;
+    color: black;
+}
+
+/* Background CSS */
+#background {
+    background: #111;
+    z-index: -1;
+    position: absolute;
+}
