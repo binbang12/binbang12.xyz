@@ -6,6 +6,13 @@ body {
     overflow: hidden;
 }
   
+/* Background CSS */
+#background {
+    background: #111;
+    z-index: -1;
+    position: absolute;
+}
+
 /* Center CSS */
 #center {
     font-family: 'Space Mono', monospace;
@@ -15,16 +22,10 @@ body {
     border-radius: clamp(0.4rem, 0.75vw, 1rem);
     place-self: center;
     z-index: 1;
+    position: absolute;
 }
   
 #center:hover {
     background-color: #00cc33;
     color: black;
-}
-
-/* Background CSS */
-#background {
-    background: #111;
-    z-index: -1;
-    position: absolute;
 }
