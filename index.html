@@ -1,17 +1,35 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <link rel="manifest" href="favicons/site.webmanifest">
-    <link rel="stylesheet" href="CSS/index.css">
-    <title>binbang12</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <canvas id="background"></canvas>
-
-    <h1 id="center" data-value="BINBANG12">BINBANG12</h1>
-    
-    <!-- Importing JavaScript -->
-    <script src="JS/index.js"></script>
+    <header>
+        <div class="right-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </div>
+    </header>
+    <main>
+        <div class="card">
+            <img src="github.jpg" alt="Github Image" />
+            <p>I use GitHub because it’s a great platform for hosting and sharing code, allowing me to track changes and collaborate easily with others. Its version control system helps me manage different project versions and keep my code organized. Plus, it’s a valuable tool for learning, sharing, and contributing to open-source projects.</p>
+        </div>
+        <div class="card">
+            <img src="vscode.jpg" alt="VS Code Image" />
+            <p>I use Visual Studio Code because it's a lightweight, fast, and highly customizable code editor. It supports many programming languages and offers powerful features like debugging, extensions, and version control integration. Its user-friendly interface and flexibility make coding more efficient and enjoyable.</p>
+        </div>
+        <div class="card">
+            <img src="chatgpt.jpg" alt="ChatGPT Image" />
+            <p>I use ChatGPT because it helps me quickly generate ideas, solve coding problems, and get answers to various questions. Its ability to understand and respond in a conversational way makes it a great tool for learning and brainstorming. Plus, it’s a useful assistant for tasks ranging from writing to coding.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
+</html>
