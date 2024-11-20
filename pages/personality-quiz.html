@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personality Quiz</title>
+    <link rel="stylesheet" href="personality-quiz-files/personality-quiz.css">
+</head>
+<body>
+    <main>
+        <section id="hero">
+            <h1>Personality Quiz</h1>
+            <p>Find out your personality in 2 minutes!</p>
+            <a href="#quiz" class="btn">Get Started</a>
+        </section>
+        <form id="quiz" action="submit.html" onsubmit="processQuiz(event)">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. What’s your favorite way to spend a weekend?</p>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="a" required> Exploring nature 🌳</label><br>
+                    <label><input type="radio" name="q1" value="b" required> Partying with friends 🎉</label><br>
+                    <label><input type="radio" name="q1" value="c" required> Curling up with a book 📚</label><br>
+                    <label><input type="radio" name="q1" value="d" required> Learning a new skill 🛠</label>
+                </div>
+            </div>
+    
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. Pick a dream vacation:</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="a" required> Beach paradise 🏖</label><br>
+                    <label><input type="radio" name="q2" value="b" required> Bustling city 🏙</label><br>
+                    <label><input type="radio" name="q2" value="c" required> Cozy countryside 🌄</label><br>
+                    <label><input type="radio" name="q2" value="d" required> Historic landmarks 🏰</label>
+                </div>
+            </div>
+            
+            <!-- Question 3 -->
+            <div class="question">
+                <p>3. What’s your go-to comfort food?</p>
+                <div class="options">
+                    <label><input type="radio" name="q3" value="a" required> Fresh fruits or veggies 🥗</label><br>
+                    <label><input type="radio" name="q3" value="b" required> Pizza or burgers 🍕🍔</label><br>
+                    <label><input type="radio" name="q3" value="c" required> Chocolate or dessert 🍫</label><br>
+                    <label><input type="radio" name="q3" value="d" required> A home-cooked meal 🍲</label>
+                </div>
+            </div>
+    
+            <!-- Question 4 -->
+            <div class="question">
+                <p>4. Which hobby sounds the most fun to you?</p>
+                <div class="options">
+                    <label><input type="radio" name="q4" value="a" required> Hiking or gardening 🚶‍♂️🌱</label><br>
+                    <label><input type="radio" name="q4" value="b" required> Dancing or singing 💃🎤</label><br>
+                    <label><input type="radio" name="q4" value="c" required> Reading or writing 📖✍️</label><br>
+                    <label><input type="radio" name="q4" value="d" required> Solving puzzles or coding 🧩💻</label>
+                </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question">
+                <p>5. If you were an animal, which would you be?</p>
+                <div class="options">
+                    <label><input type="radio" name="q5" value="a" required> Eagle 🦅</label><br>
+                    <label><input type="radio" name="q5" value="b" required> Lion 🦁</label><br>
+                    <label><input type="radio" name="q5" value="c" required> Cat 🐈</label><br>
+                    <label><input type="radio" name="q5" value="d" required> Dolphin 🐬</label>
+                </div>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question">
+                <p>6. How do you handle challenges?</p>
+                <div class="options">
+                    <label><input type="radio" name="q6" value="a" required> Tackle them head-on 💪</label><br>
+                    <label><input type="radio" name="q6" value="b" required> Ask for help from friends 👯‍♀️</label><br>
+                    <label><input type="radio" name="q6" value="c" required> Reflect and plan before acting 🧘</label><br>
+                    <label><input type="radio" name="q6" value="d" required> Research and strategize carefully 📊</label>
+                </div>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">
+                <p>7. What’s your favorite kind of movie?</p>
+                <div class="options">
+                    <label><input type="radio" name="q7" value="a" required> Action-adventure 🏃‍♂️💥</label><br>
+                    <label><input type="radio" name="q7" value="b" required> Comedy 😂</label><br>
+                    <label><input type="radio" name="q7" value="c" required> Drama or romance 🎭❤️</label><br>
+                    <label><input type="radio" name="q7" value="d" required> Sci-fi or mystery 🌌🕵️</label>
+                </div>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question">
+                <p>8. Which of these best describes you?</p>
+                <div class="options">
+                    <label><input type="radio" name="q8" value="a" required> Adventurous and outdoorsy ⛺</label><br>
+                    <label><input type="radio" name="q8" value="b" required> Social and outgoing 🎈</label><br>
+                    <label><input type="radio" name="q8" value="c" required> Thoughtful and calm 🌙</label><br>
+                    <label><input type="radio" name="q8" value="d" required> Analytical and curious 🔬</label>
+                </div>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question">
+                <p>9. If you could master a new skill instantly, what would it be?</p>
+                <div class="options">
+                    <label><input type="radio" name="q9" value="a" required> Rock climbing or surfing 🧗‍♂️🏄‍♀️</label><br>
+                    <label><input type="radio" name="q9" value="b" required> Playing an instrument 🎸</label><br>
+                    <label><input type="radio" name="q9" value="c" required> Painting or writing 🎨✍️</label><br>
+                    <label><input type="radio" name="q9" value="d" required> Robotics or programming 🤖</label>
+                </div>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question">
+                <p>10. How do you relax after a long day?</p>
+                <div class="options">
+                    <label><input type="radio" name="q10" value="a" required> Take a walk outside 🚶‍♂️</label><br>
+                    <label><input type="radio" name="q10" value="b" required> Hang out with friends 👫</label><br>
+                    <label><input type="radio" name="q10" value="c" required> Watch your favorite TV show 📺</label><br>
+                    <label><input type="radio" name="q10" value="d" required> Work on a personal project 🛠</label>
+                </div>
+            </div>
+    
+            <!-- Submit Button -->
+            <div class="question">
+                <button type="submit">See Results</button>
+            </div>
+
+            <section id="result" style="display: none;">
+                <h2>Your Personality Result:</h2>
+                <p id="personality-type"></p>
+            </section>
+
+            <script src="personality-quiz-files/personality-quiz.js"></script>
+        </form>
+    </main>
+</body>
+</html>
