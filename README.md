@@ -1,6 +1,7 @@
 # BINBANG12 Portfolio Website
 
 Welcome to the BINBANG12 Portfolio website! This website showcases my personal projects, skills, and interests. It's built with modern web technologies and serves as a hub to highlight my work and development journey.
+
 This website can be found live at https://binbang12.xyz/
 
 ## Features
@@ -22,6 +23,7 @@ Each card represents a different project. The cards are clickable and redirects 
 ## Installation
 
 To run the website locally:
+
 1. Clone the repository:
 
    ```bash
