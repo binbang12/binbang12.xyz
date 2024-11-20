@@ -1,24 +1,13 @@
-# BINBANG12 Portfolio Website
+# Minimalist 3D Bedroom (A-Frame)
 
-Welcome to the BINBANG12 Portfolio website! This website showcases my personal projects, skills, and interests. It's built with modern web technologies and serves as a hub to highlight my work and development journey.
+Welcome to a Minimalist 3D Bedroom! This project is my first go at making a 3D website, and it's built with HTML and A-Frame.
 
-This website can be found live at https://binbang12.xyz/
-
-## Features
-
-- **Homepage**: Clean, minimal design with a centered title and navigation links.
-- **Responsive Design**: The website adapts to different screen sizes.
-- **Clickable Cards**: Each project is presented within a clickable card, linking to the projects repo.
+This room can be found live at https://binbang12.xyz/minimalist-bedroom/
 
 ## Technologies Used
 
 - **HTML5**
-- **CSS3**
-- **Flexbox & Grid**
-
-## Project Cards
-
-Each card represents a different project. The cards are clickable and redirects to the projects repo.
+- **A-Frame**
 
 ## Installation
 
@@ -27,9 +16,9 @@ To run the website locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/binbang12/binbang12.xyz.git
+   git clone https://github.com/binbang12/minimalist-bedroom.git
 2. Navigate to the project folder:
 
     ```bash
-    cd binbang12.xyz
+    cd minimalist-bedroom
 3. Open the index.html file in your browser to view the site.
