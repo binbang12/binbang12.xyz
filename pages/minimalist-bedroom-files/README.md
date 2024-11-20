@@ -2,7 +2,7 @@
 
 Welcome to a Minimalist 3D Bedroom! This project is my first go at making a 3D website, and it's built with HTML and A-Frame.
 
-This room can be found live at https://binbang12.xyz/minimalist-bedroom/
+This room can be found live at https://binbang12.xyz/pages/minimalist-bedroom/
 
 ## Technologies Used
 
